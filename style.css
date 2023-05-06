@@ -2815,6 +2815,16 @@ a.postbox:hover .image-overlay {
     border-left: 2px dashed #d93c4d;
     border-bottom: 2px dashed #d93c4d;
 }
+@media  (max-width: 576px) {
+  .border-top-right {
+    top: -70px;
+    
+}
+.section-title {
+  top: -30px;
+} {
+}
+}
 .pg-features a {
     font-size: 1.8em;
 }

@@ -32,15 +32,15 @@ html {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 300px) {
   .container {
-    max-width: 540px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 100%;
   }
 }
 
@@ -97,6 +97,7 @@ html {
   .wrap.flex-container {
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
   }
 }
 
